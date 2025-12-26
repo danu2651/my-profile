@@ -4,10 +4,10 @@ export default function Home() {
   return (
     <main style={styles.main}>
       <div style={styles.container}>
-        {/* HERO SECTION - Staggered Layout */}
+        {/* HERO SECTION */}
         <section style={styles.hero}>
           <div style={styles.heroLeft}>
-            <h2 style={styles.name}>Daniel nigussie</h2>
+            <h1 style={styles.name}>Daniel nigussie.</h1>
             <div style={styles.statusBadge}>
               <span style={styles.dot}></span> Available for Projects
             </div>
@@ -15,102 +15,131 @@ export default function Home() {
           <div style={styles.heroRight}>
             <p style={styles.role}>CS Student & Full Stack Developer</p>
             <p style={styles.bio}>
-              Building complex management systems with a focus on
-              <span style={{ color: "#fff" }}> minimalist aesthetics</span> and
-              <span style={{ color: "#fff" }}> high-performance code.</span>
+              Designing robust systems with
+              <span style={{ color: "#fff" }}> vibrant clarity</span> and
+              <span style={{ color: "#fff" }}> architectural logic.</span>
             </p>
           </div>
         </section>
 
-        {/* TECH STACK - Minimalist Scroller */}
-        <div style={styles.techBar}>
+        {/* SKILLS SECTION - New Aesthetic Pill Bar */}
+        <section style={styles.skillsBar}>
           {[
-            "C++",
-            "PostgreSQL",
             "Next.js",
-            "TypeScript",
+            "PostgreSQL",
+            "C++",
+            "JavaScript",
+            "HTML",
+            "CSS",
             "React",
-            "Tailwind",
-          ].map((tech) => (
-            <span key={tech} style={styles.techItem}>
-              {tech}
+          ].map((skill) => (
+            <span key={skill} style={styles.skillPill}>
+              {skill}
             </span>
           ))}
-        </div>
+        </section>
 
-        {/* PROJECTS SECTION - Bento Grid Style */}
+        {/* PROJECTS SECTION */}
         <section style={styles.projectsSection}>
-          <h2 style={styles.sectionLabel}>/ Selected Projects</h2>
+          <h2 style={styles.sectionLabel}>/ Selected Portfolio</h2>
 
           <div style={styles.bentoGrid}>
-            {/* Project 1: Large Card */}
+            {/* Project 1: Clinical System */}
             <div style={{ ...styles.card, gridColumn: "span 2" }}>
-              <div style={styles.cardHeader}>
-                <span style={styles.cardTag}>Medical Tech</span>
-                <span style={styles.cardYear}>2024</span>
+              <div style={styles.imageWrapperWide}>
+                <img
+                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1000"
+                  alt="Medical Technology"
+                  style={styles.cardImage}
+                />
               </div>
-              <h3 style={styles.cardTitle}>Student Clinical Management</h3>
-              <p style={styles.cardDesc}>
-                A high-integrity system for tracking hospital rotations and
-                patient data security.
-              </p>
-              <div style={styles.cardFooter}>C++ • PostgreSQL</div>
+              <div style={styles.cardContent}>
+                <div style={styles.cardHeader}>
+                  <span style={styles.cardTag}>Medical System</span>
+                </div>
+                <h3 style={styles.cardTitle}>Student Clinical Management</h3>
+                <p style={styles.cardDesc}>
+                  A professional dashboard for managing hospital rotations and
+                  clinical data.
+                </p>
+                <div style={styles.cardFooter}>C++ • PostgreSQL</div>
+              </div>
             </div>
 
-            {/* Project 2: Small Card */}
+            {/* Project 2: House Rental */}
             <div style={styles.card}>
-              <div style={styles.cardHeader}>
-                <span style={styles.cardTag}>Real Estate</span>
+              <div style={styles.imageWrapperSmall}>
+                <img
+                  src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=600"
+                  alt="Modern House"
+                  style={styles.cardImage}
+                />
               </div>
-              <h3 style={styles.cardTitle}>House Rental</h3>
-              <p style={styles.cardDesc}>
-                Automated lease and rent tracking system.
-              </p>
-              <div style={styles.cardFooter}>SQL • C++</div>
+              <div style={styles.cardContent}>
+                <h3 style={styles.cardTitle}>Rental Hub</h3>
+                <p style={styles.cardDesc}>
+                  Automated lease and rent tracking.
+                </p>
+                <div style={styles.cardFooter}>SQL • C++</div>
+              </div>
             </div>
 
-            {/* Project 3: Small Card */}
+            {/* Project 3: Gym System */}
             <div style={styles.card}>
-              <div style={styles.cardHeader}>
-                <span style={styles.cardTag}>Fitness</span>
+              <div style={styles.imageWrapperSmall}>
+                <img
+                  src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&q=80&w=600"
+                  alt="Gym Equipment"
+                  style={styles.cardImage}
+                />
               </div>
-              <h3 style={styles.cardTitle}>Gym System</h3>
-              <p style={styles.cardDesc}>
-                Membership tiers and subscription logic.
-              </p>
-              <div style={styles.cardFooter}>C++ OOP</div>
+              <div style={styles.cardContent}>
+                <h3 style={styles.cardTitle}>Gym Management</h3>
+                <p style={styles.cardDesc}>
+                  Member logic and tiered subscriptions.
+                </p>
+                <div style={styles.cardFooter}>C++ OOP</div>
+              </div>
             </div>
 
-            {/* Project 4: Large Card (Web Focus) */}
-            <div
-              style={{
-                ...styles.card,
-                gridColumn: "span 2",
-                background: "linear-gradient(145deg, #0a0a0a 0%, #111 100%)",
-              }}
-            >
-              <div style={styles.cardHeader}>
-                <span style={styles.cardTag}>E-Commerce</span>
-                <span style={styles.cardYear}>2025</span>
+            {/* Project 4: Flower Shop */}
+            <div style={{ ...styles.card, gridColumn: "span 2" }}>
+              <div style={styles.imageWrapperFlower}>
+                <img
+                  src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&q=80&w=1200"
+                  alt="Vibrant Flower Bouquet"
+                  style={styles.cardImage}
+                />
               </div>
-              <h3 style={styles.cardTitle}>The Flower Shop</h3>
-              <p style={styles.cardDesc}>
-                A modern boutique storefront focusing on fluid animations and
-                responsive design.
-              </p>
-              <div style={styles.cardFooter}>
-                Next.js • Tailwind CSS • Framer Motion
+              <div style={styles.cardContent}>
+                <div style={styles.cardHeader}>
+                  <span style={styles.cardTag}>E-Commerce</span>
+                </div>
+                <h3 style={styles.cardTitle}>The Flower Shop</h3>
+                <p style={styles.cardDesc}>
+                  A minimalist floral storefront. Optimized for high-quality
+                  visuals.
+                </p>
+                <div style={styles.cardFooter}>Next.js • React • Tailwind</div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* FOOTER - Minimal & Bold */}
+        {/* FOOTER */}
         <footer style={styles.footer}>
-          <p style={styles.footerLabel}>Start a conversation</p>
+          <div style={styles.socialLinks}>
+            <a href="https://github.com" style={styles.socialIcon}>
+              GitHub
+            </a>
+            <a href="https://linkedin.com" style={styles.socialIcon}>
+              LinkedIn
+            </a>
+          </div>
           <a href="mailto:danielnig1997@gmail.com" style={styles.emailLink}>
             danielnig1997@gmail.com
           </a>
+          <p style={styles.copyright}>© 2025 DANI • BUILT WITH LOGIC</p>
         </footer>
       </div>
     </main>
@@ -120,45 +149,45 @@ export default function Home() {
 const styles: { [key: string]: React.CSSProperties } = {
   main: {
     backgroundColor: "#000",
-    color: "#888",
+    color: "#a1a1aa",
     minHeight: "100vh",
-    fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
-    padding: "100px 24px",
+    fontFamily: "'Inter', sans-serif",
+    padding: "60px 20px",
     display: "flex",
     justifyContent: "center",
   },
   container: {
-    maxWidth: "900px",
+    maxWidth: "800px",
     width: "100%",
   },
   hero: {
     display: "flex",
-    flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "flex-end",
-    marginBottom: "80px",
+    marginBottom: "40px",
     flexWrap: "wrap",
-    gap: "40px",
-  },
-  heroLeft: {
-    flex: "1",
+    gap: "30px",
   },
   name: {
-    fontSize: "5rem",
-    fontWeight: "800",
+    fontSize: "clamp(2.5rem, 8vw, 4rem)",
+    fontWeight: "900",
     color: "#fff",
     margin: 0,
     letterSpacing: "-0.05em",
   },
   statusBadge: {
-    fontSize: "0.75rem",
+    fontSize: "0.65rem",
     color: "#fff",
-    display: "flex",
+    display: "inline-flex",
     alignItems: "center",
-    gap: "8px",
-    marginTop: "10px",
+    gap: "6px",
+    marginTop: "12px",
     textTransform: "uppercase",
     letterSpacing: "0.1em",
+    padding: "4px 10px",
+    backgroundColor: "#111",
+    borderRadius: "100px",
+    border: "1px solid #222",
   },
   dot: {
     height: "6px",
@@ -168,104 +197,110 @@ const styles: { [key: string]: React.CSSProperties } = {
     boxShadow: "0 0 10px #22c55e",
   },
   heroRight: {
-    flex: "1",
-    maxWidth: "400px",
+    maxWidth: "380px",
   },
   role: {
     color: "#fff",
-    fontSize: "1rem",
     fontWeight: "600",
-    marginBottom: "10px",
+    marginBottom: "8px",
+    fontSize: "1rem",
   },
-  bio: {
-    fontSize: "1.1rem",
-    lineHeight: "1.5",
-  },
-  techBar: {
+  bio: { fontSize: "1rem", lineHeight: "1.5" },
+
+  // New Skills Bar Styling
+  skillsBar: {
     display: "flex",
-    gap: "20px",
-    borderBottom: "1px solid #111",
-    paddingBottom: "20px",
+    flexWrap: "wrap",
+    gap: "10px",
     marginBottom: "80px",
-    overflowX: "auto",
+    borderBottom: "1px solid #111",
+    paddingBottom: "30px",
   },
-  techItem: {
-    fontSize: "0.8rem",
-    fontFamily: "monospace",
-    whiteSpace: "nowrap",
+  skillPill: {
+    fontSize: "0.75rem",
+    color: "#71717a",
+    padding: "6px 14px",
+    backgroundColor: "#09090b",
+    border: "1px solid #18181b",
+    borderRadius: "100px",
+    fontWeight: "500",
   },
-  projectsSection: {
-    marginBottom: "100px",
-  },
+
+  projectsSection: { marginBottom: "100px" },
   sectionLabel: {
-    fontSize: "0.9rem",
-    textTransform: "uppercase",
-    letterSpacing: "0.2em",
-    marginBottom: "40px",
-    color: "#444",
+    fontSize: "0.7rem",
+    color: "#3f3f46",
+    marginBottom: "30px",
+    letterSpacing: "0.15em",
+    fontWeight: "bold",
   },
   bentoGrid: {
     display: "grid",
     gridTemplateColumns: "1fr 1fr",
-    gap: "16px",
+    gap: "20px",
   },
   card: {
-    backgroundColor: "#0a0a0a",
-    border: "1px solid #1a1a1a",
-    borderRadius: "16px",
-    padding: "32px",
+    backgroundColor: "#09090b",
+    border: "1px solid #18181b",
+    borderRadius: "24px",
+    overflow: "hidden",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between",
-    minHeight: "220px",
-    transition: "border-color 0.4s",
   },
-  cardHeader: {
-    display: "flex",
-    justifyContent: "space-between",
-    marginBottom: "20px",
-  },
-  cardTag: {
-    fontSize: "0.7rem",
-    color: "#fff",
-    backgroundColor: "#222",
-    padding: "4px 10px",
-    borderRadius: "4px",
-    textTransform: "uppercase",
-  },
-  cardYear: {
-    fontSize: "0.8rem",
-    fontFamily: "monospace",
-  },
+  imageWrapperWide: { height: "180px", width: "100%", overflow: "hidden" },
+  imageWrapperFlower: { height: "220px", width: "100%", overflow: "hidden" },
+  imageWrapperSmall: { height: "140px", width: "100%", overflow: "hidden" },
+  cardImage: { width: "100%", height: "100%", objectFit: "cover" },
+  cardContent: { padding: "24px" },
   cardTitle: {
-    fontSize: "1.5rem",
     color: "#fff",
-    margin: "0 0 10px 0",
-    fontWeight: "600",
+    fontSize: "1.3rem",
+    margin: "0 0 8px 0",
+    fontWeight: "700",
   },
   cardDesc: {
     fontSize: "0.95rem",
-    lineHeight: "1.5",
-    marginBottom: "20px",
+    color: "#71717a",
+    marginBottom: "15px",
+    lineHeight: "1.4",
+  },
+  cardTag: {
+    fontSize: "0.6rem",
+    color: "#fff",
+    backgroundColor: "rgba(255, 255, 255, 0.1)",
+    backdropFilter: "blur(4px)",
+    padding: "4px 10px",
+    borderRadius: "100px",
+    border: "1px solid rgba(255, 255, 255, 0.1)",
   },
   cardFooter: {
     fontSize: "0.75rem",
     fontFamily: "monospace",
-    color: "#444",
+    color: "#3f3f46",
   },
   footer: {
+    textAlign: "center",
+    borderTop: "1px solid #18181b",
     paddingTop: "60px",
-    borderTop: "1px solid #111",
   },
-  footerLabel: {
+  socialLinks: {
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    marginBottom: "20px",
+  },
+  socialIcon: {
     fontSize: "0.8rem",
-    marginBottom: "10px",
+    color: "#3f3f46",
+    textDecoration: "none",
+    textTransform: "uppercase",
+    letterSpacing: "0.1em",
   },
   emailLink: {
-    fontSize: "2rem",
+    fontSize: "1.8rem",
     color: "#fff",
+    fontWeight: "800",
     textDecoration: "none",
-    fontWeight: "700",
-    wordBreak: "break-all",
   },
+  copyright: { fontSize: "0.75rem", marginTop: "15px", color: "#27272a" },
 };
