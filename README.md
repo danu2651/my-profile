@@ -16,15 +16,16 @@ This project showcases my skills, selected projects, and contact information.
 
 ## 💻 Technologies Used
 
-| Technology | Description |
-|------------|-------------|
+| Technology | Description                                           |
+| ---------- | ----------------------------------------------------- |
 | Next.js    | React framework for server-side rendering and routing |
-| React      | Frontend library for building UI components |
-| TypeScript | Adds type safety to JavaScript |
-| CSS        | Styling your components |
-| HTML       | Structure of the website |
+| React      | Frontend library for building UI components           |
+| TypeScript | Adds type safety to JavaScript                        |
+| CSS        | Styling your components                               |
+| HTML       | Structure of the website                              |
 
 ## 📂 Project Structure
+
 # Dani's Personal Profile
 
 Welcome to my personal portfolio website built with **Next.js**.  
@@ -43,15 +44,16 @@ This project showcases my skills, selected projects, and contact information.
 
 ## 💻 Technologies Used
 
-| Technology | Description |
-|------------|-------------|
+| Technology | Description                                           |
+| ---------- | ----------------------------------------------------- |
 | Next.js    | React framework for server-side rendering and routing |
-| React      | Frontend library for building UI components |
-| TypeScript | Adds type safety to JavaScript |
-| CSS        | Styling your components |
-| HTML       | Structure of the website |
+| React      | Frontend library for building UI components           |
+| TypeScript | Adds type safety to JavaScript                        |
+| CSS        | Styling your components                               |
+| HTML       | Structure of the website                              |
 
 ## 📂 Project Structure
+
 my-profile/
 ├─ app/
 │ ├─ page.tsx # Main profile page
@@ -78,3 +80,4 @@ npm run dev
 
 
 
+```
