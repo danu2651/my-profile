@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dani's Personal Profile
 
-## Getting Started
+Welcome to my personal portfolio website built with **Next.js**.  
+This project showcases my skills, selected projects, and contact information.
 
-First, run the development server:
+## 🚀 Project Overview
+
+- **Built With:** Next.js, React, TypeScript, CSS, HTML
+- **Purpose:** Showcase my skills and projects as a Computer Science student and Full Stack Developer.
+- **Features:**
+  - Hero section with name, role, and availability
+  - Skills section with key technologies
+  - Projects section in a clean, grid-based layout
+  - Contact information with email and social links
+  - Responsive and minimalist design
+
+## 💻 Technologies Used
+
+| Technology | Description |
+|------------|-------------|
+| Next.js    | React framework for server-side rendering and routing |
+| React      | Frontend library for building UI components |
+| TypeScript | Adds type safety to JavaScript |
+| CSS        | Styling your components |
+| HTML       | Structure of the website |
+
+## 📂 Project Structure
+# Dani's Personal Profile
+
+Welcome to my personal portfolio website built with **Next.js**.  
+This project showcases my skills, selected projects, and contact information.
+
+## 🚀 Project Overview
+
+- **Built With:** Next.js, React, TypeScript, CSS, HTML
+- **Purpose:** Showcase my skills and projects as a Computer Science student and Full Stack Developer.
+- **Features:**
+  - Hero section with name, role, and availability
+  - Skills section with key technologies
+  - Projects section in a clean, grid-based layout
+  - Contact information with email and social links
+  - Responsive and minimalist design
+
+## 💻 Technologies Used
+
+| Technology | Description |
+|------------|-------------|
+| Next.js    | React framework for server-side rendering and routing |
+| React      | Frontend library for building UI components |
+| TypeScript | Adds type safety to JavaScript |
+| CSS        | Styling your components |
+| HTML       | Structure of the website |
+
+## 📂 Project Structure
+my-profile/
+├─ app/
+│ ├─ page.tsx # Main profile page
+│ ├─ layout.tsx # Layout wrapper
+│ ├─ globals.css # Global styles
+├─ public/ # Images and icons
+├─ package.json # Project metadata and dependencies
+├─ README.md # This file
+└─ next.config.js # Next.js configuration
+
+## 📬 Contact
+
+- Email: [danielnig1997@gmail.com](mailto:danielnig1997@gmail.com)
+- GitHub: [github.com/danu2651](https://github.com/danu2651)
+
+## 📝 How to Run Locally
 
 ```bash
+git clone https://github.com/danu2651/my-profile.git
+cd my-profile
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
