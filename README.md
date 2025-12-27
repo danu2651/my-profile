@@ -90,7 +90,7 @@ my-profile/
 
 - Email: [danielnig1997@gmail.com](mailto:danielnig1997@gmail.com)
 - GitHub: [github.com/danu2651](https://github.com/danu2651)
-- LinkedIn: [linkedin.com/in/your-linkedin](https://linkedin.com) <!-- Replace with your LinkedIn -->
+- LinkedIn: [linkedin.com/in/https://www.linkedin.com/in/daniel-nigussie-52193436b/](https://linkedin.com)
 
 ---
 
