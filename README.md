@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website built with **Next.js**.  
 This project showcases my skills, selected projects, and contact information.
 
-[View Live Project](https://your-live-site-link) <!-- Replace with your deployed link -->
+[View Live Project](https://my-profile-three-mu.vercel.app/)
 
 ---
 
@@ -75,10 +75,10 @@ This project showcases my skills, selected projects, and contact information.
 ## 📂 Project Structure
 
 my-profile/
-├─ app/
+├─ app/ # Main application folder
 │ ├─ page.tsx # Main profile page
 │ ├─ layout.tsx # Layout wrapper
-│ ├─ globals.css # Global styles
+│ └─ globals.css # Global styles
 ├─ public/ # Images and icons
 ├─ package.json # Project metadata and dependencies
 ├─ README.md # This file
@@ -90,7 +90,7 @@ my-profile/
 
 - Email: [danielnig1997@gmail.com](mailto:danielnig1997@gmail.com)
 - GitHub: [github.com/danu2651](https://github.com/danu2651)
-- LinkedIn: [linkedin.com/in/https://www.linkedin.com/in/daniel-nigussie-52193436b/](https://linkedin.com)
+- [LinkedIn](https://www.linkedin.com/in/daniel-nigussie-52193436b/)
 
 ---
 
