@@ -74,15 +74,17 @@ This project showcases my skills, selected projects, and contact information.
 
 ## 📂 Project Structure
 
-my-profile/
-├─ app/ # Main application folder
-│ ├─ page.tsx # Main profile page
-│ ├─ layout.tsx # Layout wrapper
-│ └─ globals.css # Global styles
-├─ public/ # Images and icons
-├─ package.json # Project metadata and dependencies
-├─ README.md # This file
-└─ next.config.js # Next.js configuration
+app/: Main application folder
+
+- page.tsx Main profile page
+- layout.tsx Layout wrapper
+- globals.css Global styles
+
+public/: Static files (images, icons, etc.)
+
+package.json: Project metadata and dependencies
+README.md: This file
+next.config.js: Next.js configuration
 
 ---
 
