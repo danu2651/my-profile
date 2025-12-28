@@ -76,9 +76,11 @@ This project showcases my skills, selected projects, and contact information.
 
 app/: Main application folder
 
-- page.tsx Main profile page
-- layout.tsx Layout wrapper
-- globals.css Global styles
+page.tsx Main profile page
+
+layout.tsx Layout wrapper
+
+globals.css Global styles
 
 public/: Static files (images, icons, etc.)
 
